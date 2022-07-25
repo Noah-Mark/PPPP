@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Lobster&family=Poppins&display=swap');
+*{
+    margin: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    position: relative;
+
+    div{
+        display: flex;
+        padding: 1em;
+    }
+    .wrapper{
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        margin: 0;
+        padding: 0;
+        display: inline;
+        padding: 1em;
+    }
+    .logo a{
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    .navigation{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        position: relative;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+    ul li a{
+        padding: 1em;
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+div{
+    .main-body{
+        margin: 0;
+        padding: 0;
+        justify-content: space-between
+    }
+    .header{
+        margin-top: 10em;
+        padding: 0;
+        position: relative;
+        p{
+            position: absolute;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        span{
+            font-size: 5rem;
+            font-weight: bold;
+            color: rgb(99, 99, 99);
+        }
+    }
+    
+    .buttons{
+        position: relative;
+        float: right;
+    }
+    .buttons .line{
+        width: 3.5em;
+        position: absolute;
+        top: -170px;
+        right: 40px;
+    }
+    .buttons .icons{
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        right: 42.5px;
+        top: 40px;
+        transition: 1s;
+        .git:hover{
+            path{
+                fill: rgb(94, 94, 94);
+            }
+        }
+        .fb:hover{
+            path{
+                fill: rgb(94, 94, 94);
+            }
+        }
+        .twi:hover{
+            path{
+                fill: rgb(94, 94, 94);
+            }
+        }
+    }
+}
+
+.quote-1{
+    position: absolute;
+    top: 500px;
+    left: -100px;
+    font-size: 5rem;
+    width: 23em;
+    text-align: center;
+    color: rgb(95, 95, 95);
+    animation: trancend 1s forwards ease-in-out;
+
+    span{
+        position: absolute;
+        font-size: 14rem;
+        top: 0;
+        right: 250px;
+        color: black;
+    }
+}
+
+section{
+    div{
+        
+        .about{
+            justify-content: space-between;
+        }
+        .about-txt{
+            position: absolute;
+            top: 1100px;
+            width: 500px;
+
+            h1{
+                font-size: 2rem;
+                position: absolute;
+                top: 30px;
+                left: -5px;
+                color: rgb(0, 0, 0);
+                z-index: -1;
+            }
+            p{
+                position: absolute;
+                top: 90px;
+                font-size: 1.5rem;
+                text-align: justify;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+            }
+        }
+        .about-pic{
+            background: black;
+
+            img{
+                position: absolute;
+                width: 30em;
+                height: 45em;
+                z-index: -2;
+                right: 200px;
+                top: 1100px;
+                border-radius: 100px;
+            }
+        }
+        
+        .arrow-right{
+            position: absolute;
+            top: 1300px;
+            z-index: -40;
+            right:150px;
+            width: 40em;
+            opacity: 0.8;
+        }
+        .arrow-right-1{
+            position: absolute;
+            top: 1350px;
+            z-index: -40;
+            right:100px;
+            width: 40em;
+            opacity: 0.5;
+        }
+        .arrow-right-2{
+            position: absolute;
+            top: 1450px;
+            z-index: -40;
+            right: 120px;
+            width: 40em;
+            opacity: 0.7;
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(99, 99, 99);
+}
+
+section{
+    .skillss{
+        justify-content: space-between;
+    }
+        .prog-icons{
+            position: absolute;
+            top: 1700px;
+            left: 0;
+ 
+            svg{
+                width: 50em;
+                height: 50em;
+            }
+        }
+    .skills-txt{
+        position: absolute;
+        right: 50px;
+        top: 1750px;
+        width: 500px;
+        height: 80vh;
+
+        h1{
+            font-size: 2rem;
+                position: absolute;
+                top: -10px;
+                left: -5px;
+                color: rgb(0, 0, 0);
+                z-index: -1;
+        }
+        p{
+                position: absolute;
+                top: 50px;
+                font-size: 1.5rem;
+                text-align: justify;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+        }
+    }
+    .css{
+        position: absolute;
+        width: 8em;
+        height: 8em;
+        top: 1865px;
+        left: 180px;
+    }
+    .js{
+        position: absolute;
+        width: 8em;
+        height: 8em;
+        top: 1865px;
+        left: 300px;
+    }
+    .html{
+        position: absolute;
+        width: 8em;
+        height: 8em;
+        top: 1980px;
+        left: 180px;
+    }
+    .react{
+        position: absolute;
+        width: 8em;
+        height: 8em;
+        top: 1980px;
+        left: 420px;
+    }
+}
+
+section{
+
+    .proj-txt{
+        position: absolute;
+        top: 2400px;
+        width: 93%;
+        height: 80vh;
+
+
+        h1{
+            font-size: 5rem;
+                color: rgb(0, 0, 0);
+                z-index: -1;
+                text-align: center;
+        }
+        p{
+                font-size: 1.5rem;
+                text-align: justify;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+        }
+    }
+    span img{
+        position: absolute;
+        top: 2800px;
+        width: 70%;
+        left: 150px;
+        right: 0;
+        height: 40em;
+    }
+    span h1{
+        font-size: 3rem;
+        position: absolute;
+        top: 3300px;
+        height: 100vh;
+        left: 12.8em;
+    }
+    
+}
+//keyframes
+@keyframes trancend{
+    from {
+        transform: translateX(-1000px);
+      }
+    to {
+        transform: translateY(0);
+      }
+}
